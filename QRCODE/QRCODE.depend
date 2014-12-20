@@ -1,0 +1,867 @@
+# depslib dependency file v1.0
+1419089014 source:/home/hackaroth/Development/QRCODE/QRCODE/main.cpp
+	<string.h>
+	<iostream>
+	<fstream>
+	<streambuf>
+	<stdlib.h>
+	"QRController.h"
+
+1417644706 source:/home/hackaroth/Development/QRCODE/QRCODE/src/Bitmap.cpp
+	"Bitmap.h"
+	<string.h>
+	<fstream>
+
+1417644728 /home/hackaroth/Development/QRCODE/QRCODE/include/Bitmap.h
+	<stdint.h>
+	<Colors.h>
+	<string>
+
+1417644722 /home/hackaroth/Development/QRCODE/QRCODE/include/Colors.h
+
+1417690546 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRCode.cpp
+	"QRCode.h"
+	<math.h>
+	<string>
+	<string.h>
+	"EQRCapabilities.h"
+	<stdlib.h>
+	<sstream>
+	<stdio.h>
+	"EQRErrorCorrection.h"
+	"EQRGeneric.h"
+
+1417690576 /home/hackaroth/Development/QRCODE/QRCODE/include/QRCode.h
+	"Bitmap.h"
+	"string"
+	"PolynomialGenerator.h"
+	"StructPoint.h"
+	"StructECInfo.h"
+	"enumCorrectionLevel.h"
+	"enumMode.h"
+
+1417644700 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRCodeV1.cpp
+	"QRCodeV1.h"
+	<string.h>
+	<iomanip>
+
+1417644718 /home/hackaroth/Development/QRCODE/QRCODE/include/QRCodeV1.h
+	<QRCode.h>
+	<string.h>
+
+1408786802 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRCodeGen.cpp
+	"QRCodeGen.h"
+
+1408384337 /home/hackaroth/Development/QRCODE/QRCODE/include/QRCodeGen.h
+	"QRCode.h"
+	"QRCodeV1.h"
+	<stddef.h>
+
+1419089056 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRController.cpp
+	<iostream>
+	"QRController.h"
+	"EQRGeneric.h"
+	"QRBitmapDraw.h"
+	"QRCodeV1.h"
+	"QRCodeV2.h"
+	"QRCodeV3.h"
+	"QRCodeV4.h"
+	"QRCodeV5.h"
+	"QRCodeV6.h"
+	"QRCodeV7.h"
+	"QRCodeV8.h"
+	"QRCodeV9.h"
+	"QRCodeV10.h"
+	"QRCodeV11.h"
+	"QRCodeV12.h"
+	"QRCodeV13.h"
+	"QRCodeV14.h"
+	"QRCodeV15.h"
+	"QRCodeV16.h"
+	"QRCodeV17.h"
+	"QRCodeV18.h"
+	"QRCodeV19.h"
+	"QRCodeV20.h"
+	"QRCodeV21.h"
+	"QRCodeV22.h"
+	"QRCodeV23.h"
+	"QRCodeV24.h"
+	"QRCodeV25.h"
+	"QRCodeV26.h"
+	"QRCodeV27.h"
+	"QRCodeV28.h"
+	"QRCodeV29.h"
+	"QRCodeV30.h"
+	"QRCodeV31.h"
+	"QRCodeV32.h"
+	"QRCodeV33.h"
+	"QRCodeV34.h"
+	"QRCodeV35.h"
+	"QRCodeV36.h"
+	"QRCodeV37.h"
+	"QRCodeV38.h"
+	"QRCodeV39.h"
+	"QRCodeV40.h"
+
+1419075489 /home/hackaroth/Development/QRCODE/QRCODE/include/QRController.h
+	"QRCode.h"
+	<string>
+	"enumCorrectionLevel.h"
+	"enumVersions.h"
+
+1417093298 source:/home/hackaroth/Development/QRCODE/QRCODE/src/IQRDrawable.cpp
+	"IQRDrawable.h"
+
+1417093332 /home/hackaroth/Development/QRCODE/QRCODE/include/IQRDrawable.h
+	<string>
+	<vector>
+	"StructPoint.h"
+	"QRMask.h"
+	<stdint.h>
+
+1417715720 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRBitmapDraw.cpp
+	"QRBitmapDraw.h"
+	<math.h>
+	<string.h>
+	<iostream>
+	"QRMask1.h"
+	"QRMask2.h"
+	"QRMask3.h"
+	"QRMask4.h"
+	"QRMask5.h"
+	"QRMask6.h"
+	"QRMask7.h"
+	"QRMask8.h"
+
+1417644724 /home/hackaroth/Development/QRCODE/QRCODE/include/QRBitmapDraw.h
+	<QRDrawable.h>
+	"Bitmap.h"
+	"QRCode.h"
+
+1416674864 /home/hackaroth/Development/QRCODE/QRCODE/include/QRV1BitmapDraw.h
+	<QRBitmapDraw.h>
+	"QRCodeV1.h"
+
+1416674860 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRV1BitmapDraw.cpp
+	"QRV1BitmapDraw.h"
+
+1417644698 source:/home/hackaroth/Development/QRCODE/QRCODE/src/EQRCapabilities.cpp
+	"EQRCapabilities.h"
+
+1417644730 /home/hackaroth/Development/QRCODE/QRCODE/include/EQRCapabilities.h
+	"EQRGeneric.h"
+
+1417644712 source:/home/hackaroth/Development/QRCODE/QRCODE/src/Monomial.cpp
+	"Monomial.h"
+	<sstream>
+
+1417644726 /home/hackaroth/Development/QRCODE/QRCODE/include/Monomial.h
+	<string>
+	<LogAntilog.h>
+
+1417644708 source:/home/hackaroth/Development/QRCODE/QRCODE/src/PolynomialGenerator.cpp
+	"PolynomialGenerator.h"
+	<math.h>
+
+1417644732 /home/hackaroth/Development/QRCODE/QRCODE/include/PolynomialGenerator.h
+	"Monomial.h"
+	"vector"
+
+1417644724 /home/hackaroth/Development/QRCODE/QRCODE/include/LogAntilog.h
+
+1417644722 /home/hackaroth/Development/QRCODE/QRCODE/include/EQRGeneric.h
+	<exception>
+
+1417644694 source:/home/hackaroth/Development/QRCODE/QRCODE/src/EQRGeneric.cpp
+	"EQRGeneric.h"
+
+1417644732 /home/hackaroth/Development/QRCODE/QRCODE/include/EQRErrorCorrection.h
+	<EQRGeneric.h>
+
+1417644708 source:/home/hackaroth/Development/QRCODE/QRCODE/src/EQRErrorCorrection.cpp
+	"EQRErrorCorrection.h"
+
+1417644730 /home/hackaroth/Development/QRCODE/QRCODE/include/StructPoint.h
+
+1417047328 source:/home/hackaroth/Development/QRCODE/QRCODE/src/IQRMask.cpp
+	"IQRMask.h"
+
+1417048000 /home/hackaroth/Development/QRCODE/QRCODE/include/IQRMask.h
+	<string>
+
+1417040793 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRBitmapMask1.cpp
+	"QRBitmapMask1.h"
+
+1417048122 /home/hackaroth/Development/QRCODE/QRCODE/include/QRBitmapMask1.h
+	<IQRMask.h>
+
+1417041675 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRBitmapMask.cpp
+	"QRBitmapMask.h"
+	"Bitmap.h"
+
+1417047260 /home/hackaroth/Development/QRCODE/QRCODE/include/QRBitmapMask.h
+	<IQRMask.h>
+
+1417040776 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRBitmapMask2.cpp
+	"QRBitmapMask2.h"
+
+1417048122 /home/hackaroth/Development/QRCODE/QRCODE/include/QRBitmapMask2.h
+	<IQRMask.h>
+
+1417040768 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRBitmapMask3.cpp
+	"QRBitmapMask3.h"
+
+1417048122 /home/hackaroth/Development/QRCODE/QRCODE/include/QRBitmapMask3.h
+	<IQRMask.h>
+
+1417040758 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRBitmapMask4.cpp
+	"QRBitmapMask4.h"
+
+1417048122 /home/hackaroth/Development/QRCODE/QRCODE/include/QRBitmapMask4.h
+	<IQRMask.h>
+
+1417032981 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRBitmapMask6.cpp
+	"QRBitmapMask6.h"
+
+1417048122 /home/hackaroth/Development/QRCODE/QRCODE/include/QRBitmapMask6.h
+	<IQRMask.h>
+
+1417040826 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRBitmapMask5.cpp
+	"QRBitmapMask5.h"
+	"math.h"
+
+1417048122 /home/hackaroth/Development/QRCODE/QRCODE/include/QRBitmapMask5.h
+	<IQRMask.h>
+
+1417040847 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRBitmapMask7.cpp
+	"QRBitmapMask7.h"
+
+1417048122 /home/hackaroth/Development/QRCODE/QRCODE/include/QRBitmapMask7.h
+	<IQRMask.h>
+
+1417040866 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRBitmapMask8.cpp
+	"QRBitmapMask8.h"
+
+1417048122 /home/hackaroth/Development/QRCODE/QRCODE/include/QRBitmapMask8.h
+	<IQRMask.h>
+
+1417644692 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRMask.cpp
+	"QRMask.h"
+	"math.h"
+	<stdlib.h>
+
+1417644720 /home/hackaroth/Development/QRCODE/QRCODE/include/QRMask.h
+	<string>
+	"Bitmap.h"
+	<stdint.h>
+
+1417644694 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRMask1.cpp
+	"QRMask1.h"
+
+1417644718 /home/hackaroth/Development/QRCODE/QRCODE/include/QRMask1.h
+	<QRMask.h>
+
+1417644710 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRMask2.cpp
+	"QRMask2.h"
+
+1417644722 /home/hackaroth/Development/QRCODE/QRCODE/include/QRMask2.h
+	<QRMask.h>
+
+1417644698 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRMask3.cpp
+	"QRMask3.h"
+
+1417644712 /home/hackaroth/Development/QRCODE/QRCODE/include/QRMask3.h
+	<QRMask.h>
+
+1417644710 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRMask4.cpp
+	"QRMask4.h"
+
+1417644716 /home/hackaroth/Development/QRCODE/QRCODE/include/QRMask4.h
+	<QRMask.h>
+
+1417644700 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRMask5.cpp
+	"QRMask5.h"
+	"math.h"
+
+1417644720 /home/hackaroth/Development/QRCODE/QRCODE/include/QRMask5.h
+	<QRMask.h>
+
+1417644708 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRMask6.cpp
+	"QRMask6.h"
+
+1417644712 /home/hackaroth/Development/QRCODE/QRCODE/include/QRMask6.h
+	<QRMask.h>
+
+1417644706 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRMask7.cpp
+	"QRMask7.h"
+
+1417644734 /home/hackaroth/Development/QRCODE/QRCODE/include/QRMask7.h
+	<QRMask.h>
+
+1417644702 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRMask8.cpp
+	"QRMask8.h"
+
+1417644716 /home/hackaroth/Development/QRCODE/QRCODE/include/QRMask8.h
+	<QRMask.h>
+
+1417644730 /home/hackaroth/Development/QRCODE/QRCODE/include/QRDrawable.h
+	<string>
+	<vector>
+	"StructPoint.h"
+	"QRMask.h"
+	<stdint.h>
+
+1417644692 source:/home/hackaroth/Development/QRCODE/QRCODE/src/QRDrawable.cpp
+	"QRDrawable.h"
+
+1417644734 /home/hackaroth/Development/QRCODE/QRCODE/include/StructECInfo.h
+
+1417644716 /home/hackaroth/Development/QRCODE/QRCODE/include/enumCorrectionLevel.h
+
+1417644732 /home/hackaroth/Development/QRCODE/QRCODE/include/enumMode.h
+
+1417473554 source:/home/hackaroth/Development/QRCODE/QRCODE/src/FormatInfo.cpp
+	"FormatInfo.h"
+	"EQRGeneric.h"
+
+1417473554 /home/hackaroth/Development/QRCODE/QRCODE/include/FormatInfo.h
+	"enumCorrectionLevel.h"
+	<string>
+
+1417896692 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV1.h
+	<QRCode.h>
+	<string.h>
+
+1418494061 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCode.h
+	"Bitmap.h"
+	<string>
+	"PolynomialGenerator.h"
+	"StructPoint.h"
+	"StructECInfo.h"
+	"enumCorrectionLevel.h"
+	"enumMode.h"
+
+1417896690 /home/hackaroth/Development/QRCODE/QRCODE/include/bitmap/Bitmap.h
+	<stdint.h>
+	<Colors.h>
+	<string>
+
+1417896690 /home/hackaroth/Development/QRCODE/QRCODE/include/bitmap/Colors.h
+
+1417896708 /home/hackaroth/Development/QRCODE/QRCODE/include/polynomial_generator/PolynomialGenerator.h
+	"Monomial.h"
+	"vector"
+
+1417896706 /home/hackaroth/Development/QRCODE/QRCODE/include/polynomial_generator/Monomial.h
+	<string>
+	<LogAntilog.h>
+
+1419089371 /home/hackaroth/Development/QRCODE/QRCODE/include/polynomial_generator/LogAntilog.h
+
+1419089383 /home/hackaroth/Development/QRCODE/QRCODE/include/struct/StructPoint.h
+
+1419089379 /home/hackaroth/Development/QRCODE/QRCODE/include/struct/StructECInfo.h
+
+1419089346 /home/hackaroth/Development/QRCODE/QRCODE/include/enums/enumCorrectionLevel.h
+
+1419089352 /home/hackaroth/Development/QRCODE/QRCODE/include/enums/enumMode.h
+
+1418492896 /home/hackaroth/Development/QRCODE/QRCODE/include/drawable/QRBitmapDraw.h
+	<QRDrawable.h>
+	"Bitmap.h"
+	"QRCode.h"
+	<QRMask.h>
+
+1418492883 /home/hackaroth/Development/QRCODE/QRCODE/include/drawable/QRDrawable.h
+	<string>
+	<vector>
+
+1417896716 /home/hackaroth/Development/QRCODE/QRCODE/include/masks/QRMask.h
+	<string>
+	"Bitmap.h"
+	<stdint.h>
+
+1419089071 source:/home/hackaroth/Development/QRCODE/QRCODE/src/bitmap/Bitmap.cpp
+	"Bitmap.h"
+	<string.h>
+	<fstream>
+
+1419089083 source:/home/hackaroth/Development/QRCODE/QRCODE/src/drawable/QRBitmapDraw.cpp
+	"QRBitmapDraw.h"
+	"EQRDimension.h"
+	<math.h>
+	<string.h>
+	<iostream>
+	"QRMask1.h"
+	"QRMask2.h"
+	"QRMask3.h"
+	"QRMask4.h"
+	"QRMask5.h"
+	"QRMask6.h"
+	"QRMask7.h"
+	"QRMask8.h"
+
+1417896714 /home/hackaroth/Development/QRCODE/QRCODE/include/masks/QRMask1.h
+	<QRMask.h>
+
+1417896718 /home/hackaroth/Development/QRCODE/QRCODE/include/masks/QRMask2.h
+	<QRMask.h>
+
+1417896710 /home/hackaroth/Development/QRCODE/QRCODE/include/masks/QRMask3.h
+	<QRMask.h>
+
+1417896712 /home/hackaroth/Development/QRCODE/QRCODE/include/masks/QRMask4.h
+	<QRMask.h>
+
+1417896716 /home/hackaroth/Development/QRCODE/QRCODE/include/masks/QRMask5.h
+	<QRMask.h>
+
+1417896714 /home/hackaroth/Development/QRCODE/QRCODE/include/masks/QRMask6.h
+	<QRMask.h>
+
+1417896718 /home/hackaroth/Development/QRCODE/QRCODE/include/masks/QRMask7.h
+	<QRMask.h>
+
+1417896714 /home/hackaroth/Development/QRCODE/QRCODE/include/masks/QRMask8.h
+	<QRMask.h>
+
+1419089083 source:/home/hackaroth/Development/QRCODE/QRCODE/src/drawable/QRDrawable.cpp
+	"QRDrawable.h"
+
+1419089093 source:/home/hackaroth/Development/QRCODE/QRCODE/src/exceptions/EQRCapabilities.cpp
+	"EQRCapabilities.h"
+
+1417896704 /home/hackaroth/Development/QRCODE/QRCODE/include/exceptions/EQRCapabilities.h
+	"EQRGeneric.h"
+
+1417896704 /home/hackaroth/Development/QRCODE/QRCODE/include/exceptions/EQRGeneric.h
+	<exception>
+
+1419089103 source:/home/hackaroth/Development/QRCODE/QRCODE/src/exceptions/EQRErrorCorrection.cpp
+	"EQRErrorCorrection.h"
+
+1417896706 /home/hackaroth/Development/QRCODE/QRCODE/include/exceptions/EQRErrorCorrection.h
+	<EQRGeneric.h>
+
+1419089111 source:/home/hackaroth/Development/QRCODE/QRCODE/src/exceptions/EQRGeneric.cpp
+	"EQRGeneric.h"
+
+1419089133 source:/home/hackaroth/Development/QRCODE/QRCODE/src/masks/QRMask.cpp
+	"QRMask.h"
+	"math.h"
+	<stdlib.h>
+
+1419089138 source:/home/hackaroth/Development/QRCODE/QRCODE/src/masks/QRMask1.cpp
+	"QRMask1.h"
+
+1419089143 source:/home/hackaroth/Development/QRCODE/QRCODE/src/masks/QRMask2.cpp
+	"QRMask2.h"
+
+1419089149 source:/home/hackaroth/Development/QRCODE/QRCODE/src/masks/QRMask3.cpp
+	"QRMask3.h"
+
+1419089154 source:/home/hackaroth/Development/QRCODE/QRCODE/src/masks/QRMask4.cpp
+	"QRMask4.h"
+
+1419089159 source:/home/hackaroth/Development/QRCODE/QRCODE/src/masks/QRMask5.cpp
+	"QRMask5.h"
+	"math.h"
+
+1419089163 source:/home/hackaroth/Development/QRCODE/QRCODE/src/masks/QRMask6.cpp
+	"QRMask6.h"
+
+1419089169 source:/home/hackaroth/Development/QRCODE/QRCODE/src/masks/QRMask7.cpp
+	"QRMask7.h"
+
+1419089174 source:/home/hackaroth/Development/QRCODE/QRCODE/src/masks/QRMask8.cpp
+	"QRMask8.h"
+
+1419089182 source:/home/hackaroth/Development/QRCODE/QRCODE/src/polynomial_generator/Monomial.cpp
+	"Monomial.h"
+	<sstream>
+
+1419089194 source:/home/hackaroth/Development/QRCODE/QRCODE/src/polynomial_generator/PolynomialGenerator.cpp
+	"PolynomialGenerator.h"
+	<math.h>
+
+1419089484 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCode.cpp
+	"QRCode.h"
+	<math.h>
+	<string.h>
+	"EQRCapabilities.h"
+	<stdlib.h>
+	<sstream>
+	<stdio.h>
+	"EQRErrorCorrection.h"
+	"EQRGeneric.h"
+
+1419089490 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV1.cpp
+	"QRCodeV1.h"
+	<string.h>
+	<iomanip>
+
+1417896696 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV2.h
+	<QRCode.h>
+	<string.h>
+
+1419089535 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV2.cpp
+	"QRCodeV2.h"
+	<string.h>
+	<iomanip>
+
+1417896692 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV3.h
+	<QRCode.h>
+	<string.h>
+
+1419089606 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV3.cpp
+	"QRCodeV3.h"
+	<string.h>
+	<iomanip>
+
+1419089652 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV4.cpp
+	"QRCodeV4.h"
+	<string.h>
+	<iomanip>
+
+1417896694 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV4.h
+	<QRCode.h>
+	<string.h>
+
+1419089663 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV5.cpp
+	"QRCodeV5.h"
+	<string.h>
+	<iomanip>
+
+1417896694 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV5.h
+	<QRCode.h>
+	<string.h>
+
+1419089667 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV6.cpp
+	"QRCodeV6.h"
+	<string.h>
+	<iomanip>
+
+1417896696 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV6.h
+	<QRCode.h>
+	<string.h>
+
+1417896696 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV7.h
+	<QRCode.h>
+	<string.h>
+
+1419089674 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV7.cpp
+	"QRCodeV7.h"
+	<string.h>
+	<iomanip>
+
+1419089362 /home/hackaroth/Development/QRCODE/QRCODE/include/enums/enumVersions.h
+
+1419089493 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV10.cpp
+	"QRCodeV10.h"
+	<string.h>
+	<iomanip>
+
+1418472075 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV10.h
+	<QRCode.h>
+	<string.h>
+
+1419089678 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV8.cpp
+	"QRCodeV8.h"
+	<string.h>
+	<iomanip>
+
+1418472246 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV8.h
+	<QRCode.h>
+	<string.h>
+
+1419089682 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV9.cpp
+	"QRCodeV9.h"
+	<string.h>
+	<iomanip>
+
+1418472142 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV9.h
+	<QRCode.h>
+	<string.h>
+
+1419089294 source:/home/hackaroth/Development/QRCODE/QRCODE/src/test/output_test.cpp
+	"QRController.h"
+
+1417975392 /home/hackaroth/Development/QRCODE/QRCODE/include/test/output_test.h
+	"enumVersions.h"
+
+1419089497 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV11.cpp
+	"QRCodeV11.h"
+	<string.h>
+	<iomanip>
+
+1418473091 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV11.h
+	<QRCode.h>
+	<string.h>
+
+1419089501 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV12.cpp
+	"QRCodeV12.h"
+	<string.h>
+	<iomanip>
+
+1418473108 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV12.h
+	<QRCode.h>
+	<string.h>
+
+1419089505 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV13.cpp
+	"QRCodeV13.h"
+	<string.h>
+	<iomanip>
+
+1418473126 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV13.h
+	<QRCode.h>
+	<string.h>
+
+1419089509 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV14.cpp
+	"QRCodeV14.h"
+	<string.h>
+	<iomanip>
+
+1418473146 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV14.h
+	<QRCode.h>
+	<string.h>
+
+1419089514 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV15.cpp
+	"QRCodeV15.h"
+	<string.h>
+	<iomanip>
+
+1418473166 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV15.h
+	<QRCode.h>
+	<string.h>
+
+1419089518 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV16.cpp
+	"QRCodeV16.h"
+	<string.h>
+	<iomanip>
+
+1418484968 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV16.h
+	<QRCode.h>
+	<string.h>
+
+1419089522 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV17.cpp
+	"QRCodeV17.h"
+	<string.h>
+	<iomanip>
+
+1418485876 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV17.h
+	<QRCode.h>
+	<string.h>
+
+1419089526 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV18.cpp
+	"QRCodeV18.h"
+	<string.h>
+	<iomanip>
+
+1418486901 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV18.h
+	<QRCode.h>
+	<string.h>
+
+1419089530 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV19.cpp
+	"QRCodeV19.h"
+	<string.h>
+	<iomanip>
+
+1418486925 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV19.h
+	<QRCode.h>
+	<string.h>
+
+1419089540 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV20.cpp
+	"QRCodeV20.h"
+	<string.h>
+	<iomanip>
+
+1418486949 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV20.h
+	<QRCode.h>
+	<string.h>
+
+1418493380 /home/hackaroth/Development/QRCODE/QRCODE/include/exceptions/EQRDimension.h
+	"EQRGeneric.h"
+
+1419089097 source:/home/hackaroth/Development/QRCODE/QRCODE/src/exceptions/EQRDimension.cpp
+	"EQRDimension.h"
+
+1419089544 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV21.cpp
+	"QRCodeV21.h"
+	<string.h>
+	<iomanip>
+
+1418680895 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV21.h
+	<QRCode.h>
+	<string.h>
+
+1419089547 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV22.cpp
+	"QRCodeV22.h"
+	<string.h>
+	<iomanip>
+
+1418680916 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV22.h
+	<QRCode.h>
+	<string.h>
+
+1419089552 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV23.cpp
+	"QRCodeV23.h"
+	<string.h>
+	<iomanip>
+
+1418680941 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV23.h
+	<QRCode.h>
+	<string.h>
+
+1419089556 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV24.cpp
+	"QRCodeV24.h"
+	<string.h>
+	<iomanip>
+
+1418680962 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV24.h
+	<QRCode.h>
+	<string.h>
+
+1419089563 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV25.cpp
+	"QRCodeV25.h"
+	<string.h>
+	<iomanip>
+
+1418680982 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV25.h
+	<QRCode.h>
+	<string.h>
+
+1419089570 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV26.cpp
+	"QRCodeV26.h"
+	<string.h>
+	<iomanip>
+
+1418752591 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV26.h
+	<QRCode.h>
+	<string.h>
+
+1419089577 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV27.cpp
+	"QRCodeV27.h"
+	<string.h>
+	<iomanip>
+
+1418752610 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV27.h
+	<QRCode.h>
+	<string.h>
+
+1419089580 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV28.cpp
+	"QRCodeV28.h"
+	<string.h>
+	<iomanip>
+
+1418752635 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV28.h
+	<QRCode.h>
+	<string.h>
+
+1419089585 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV29.cpp
+	"QRCodeV29.h"
+	<string.h>
+	<iomanip>
+
+1418752660 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV29.h
+	<QRCode.h>
+	<string.h>
+
+1419089610 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV30.cpp
+	"QRCodeV30.h"
+	<string.h>
+	<iomanip>
+
+1418752717 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV30.h
+	<QRCode.h>
+	<string.h>
+
+1419089614 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV31.cpp
+	"QRCodeV31.h"
+	<string.h>
+	<iomanip>
+
+1418925865 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV31.h
+	<QRCode.h>
+	<string.h>
+
+1419089618 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV32.cpp
+	"QRCodeV32.h"
+	<string.h>
+	<iomanip>
+
+1418925886 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV32.h
+	<QRCode.h>
+	<string.h>
+
+1419089622 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV33.cpp
+	"QRCodeV33.h"
+	<string.h>
+	<iomanip>
+
+1418925905 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV33.h
+	<QRCode.h>
+	<string.h>
+
+1419089626 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV34.cpp
+	"QRCodeV34.h"
+	<string.h>
+	<iomanip>
+
+1418925927 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV34.h
+	<QRCode.h>
+	<string.h>
+
+1419089630 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV35.cpp
+	"QRCodeV35.h"
+	<string.h>
+	<iomanip>
+
+1418925947 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV35.h
+	<QRCode.h>
+	<string.h>
+
+1419089636 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV36.cpp
+	"QRCodeV36.h"
+	<string.h>
+	<iomanip>
+
+1418944116 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV36.h
+	<QRCode.h>
+	<string.h>
+
+1419089640 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV37.cpp
+	"QRCodeV37.h"
+	<string.h>
+	<iomanip>
+
+1418944151 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV37.h
+	<QRCode.h>
+	<string.h>
+
+1419089644 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV38.cpp
+	"QRCodeV38.h"
+	<string.h>
+	<iomanip>
+
+1418944177 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV38.h
+	<QRCode.h>
+	<string.h>
+
+1419089648 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV39.cpp
+	"QRCodeV39.h"
+	<string.h>
+	<iomanip>
+
+1418944201 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV39.h
+	<QRCode.h>
+	<string.h>
+
+1419089657 source:/home/hackaroth/Development/QRCODE/QRCODE/src/qrcode/QRCodeV40.cpp
+	"QRCodeV40.h"
+	<string.h>
+	<iomanip>
+
+1418944232 /home/hackaroth/Development/QRCODE/QRCODE/include/qrcode/QRCodeV40.h
+	<QRCode.h>
+	<string.h>
+

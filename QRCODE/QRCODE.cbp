@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="QRCODE" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/QRCODE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="include/bitmap" />
+					<Add directory="include/drawable" />
+					<Add directory="include/enums" />
+					<Add directory="include/exceptions" />
+					<Add directory="include/masks" />
+					<Add directory="include/polynomial_generator" />
+					<Add directory="include/qrcode" />
+					<Add directory="include/struct" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/QRCODE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/QRController.h" />
+		<Unit filename="include/bitmap/Bitmap.h" />
+		<Unit filename="include/bitmap/Colors.h" />
+		<Unit filename="include/drawable/QRBitmapDraw.h" />
+		<Unit filename="include/drawable/QRDrawable.h" />
+		<Unit filename="include/enums/enumCorrectionLevel.h" />
+		<Unit filename="include/enums/enumMode.h" />
+		<Unit filename="include/enums/enumVersions.h" />
+		<Unit filename="include/exceptions/EQRCapabilities.h" />
+		<Unit filename="include/exceptions/EQRDimension.h" />
+		<Unit filename="include/exceptions/EQRErrorCorrection.h" />
+		<Unit filename="include/exceptions/EQRGeneric.h" />
+		<Unit filename="include/masks/QRMask.h" />
+		<Unit filename="include/masks/QRMask1.h" />
+		<Unit filename="include/masks/QRMask2.h" />
+		<Unit filename="include/masks/QRMask3.h" />
+		<Unit filename="include/masks/QRMask4.h" />
+		<Unit filename="include/masks/QRMask5.h" />
+		<Unit filename="include/masks/QRMask6.h" />
+		<Unit filename="include/masks/QRMask7.h" />
+		<Unit filename="include/masks/QRMask8.h" />
+		<Unit filename="include/polynomial_generator/LogAntilog.h" />
+		<Unit filename="include/polynomial_generator/Monomial.h" />
+		<Unit filename="include/polynomial_generator/PolynomialGenerator.h" />
+		<Unit filename="include/qrcode/QRCode.h" />
+		<Unit filename="include/qrcode/QRCodeV1.h" />
+		<Unit filename="include/qrcode/QRCodeV10.h" />
+		<Unit filename="include/qrcode/QRCodeV11.h" />
+		<Unit filename="include/qrcode/QRCodeV12.h" />
+		<Unit filename="include/qrcode/QRCodeV13.h" />
+		<Unit filename="include/qrcode/QRCodeV14.h" />
+		<Unit filename="include/qrcode/QRCodeV15.h" />
+		<Unit filename="include/qrcode/QRCodeV17.h" />
+		<Unit filename="include/qrcode/QRCodeV18.h" />
+		<Unit filename="include/qrcode/QRCodeV19.h" />
+		<Unit filename="include/qrcode/QRCodeV2.h" />
+		<Unit filename="include/qrcode/QRCodeV20.h" />
+		<Unit filename="include/qrcode/QRCodeV21.h" />
+		<Unit filename="include/qrcode/QRCodeV22.h" />
+		<Unit filename="include/qrcode/QRCodeV23.h" />
+		<Unit filename="include/qrcode/QRCodeV24.h" />
+		<Unit filename="include/qrcode/QRCodeV25.h" />
+		<Unit filename="include/qrcode/QRCodeV26.h" />
+		<Unit filename="include/qrcode/QRCodeV27.h" />
+		<Unit filename="include/qrcode/QRCodeV28.h" />
+		<Unit filename="include/qrcode/QRCodeV29.h" />
+		<Unit filename="include/qrcode/QRCodeV3.h" />
+		<Unit filename="include/qrcode/QRCodeV30.h" />
+		<Unit filename="include/qrcode/QRCodeV31.h" />
+		<Unit filename="include/qrcode/QRCodeV32.h" />
+		<Unit filename="include/qrcode/QRCodeV33.h" />
+		<Unit filename="include/qrcode/QRCodeV34.h" />
+		<Unit filename="include/qrcode/QRCodeV35.h" />
+		<Unit filename="include/qrcode/QRCodeV36.h" />
+		<Unit filename="include/qrcode/QRCodeV37.h" />
+		<Unit filename="include/qrcode/QRCodeV38.h" />
+		<Unit filename="include/qrcode/QRCodeV39.h" />
+		<Unit filename="include/qrcode/QRCodeV4.h" />
+		<Unit filename="include/qrcode/QRCodeV40.h" />
+		<Unit filename="include/qrcode/QRCodeV5.h" />
+		<Unit filename="include/qrcode/QRCodeV6.h" />
+		<Unit filename="include/qrcode/QRCodeV7.h" />
+		<Unit filename="include/qrcode/QRCodeV8.h" />
+		<Unit filename="include/qrcode/QRCodeV9.h" />
+		<Unit filename="include/struct/StructECInfo.h" />
+		<Unit filename="include/struct/StructPoint.h" />
+		<Unit filename="include/test/output_test.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/QRController.cpp" />
+		<Unit filename="src/bitmap/Bitmap.cpp" />
+		<Unit filename="src/drawable/QRBitmapDraw.cpp" />
+		<Unit filename="src/drawable/QRDrawable.cpp" />
+		<Unit filename="src/exceptions/EQRCapabilities.cpp" />
+		<Unit filename="src/exceptions/EQRDimension.cpp" />
+		<Unit filename="src/exceptions/EQRErrorCorrection.cpp" />
+		<Unit filename="src/exceptions/EQRGeneric.cpp" />
+		<Unit filename="src/masks/QRMask.cpp" />
+		<Unit filename="src/masks/QRMask1.cpp" />
+		<Unit filename="src/masks/QRMask2.cpp" />
+		<Unit filename="src/masks/QRMask3.cpp" />
+		<Unit filename="src/masks/QRMask4.cpp" />
+		<Unit filename="src/masks/QRMask5.cpp" />
+		<Unit filename="src/masks/QRMask6.cpp" />
+		<Unit filename="src/masks/QRMask7.cpp" />
+		<Unit filename="src/masks/QRMask8.cpp" />
+		<Unit filename="src/polynomial_generator/Monomial.cpp" />
+		<Unit filename="src/polynomial_generator/PolynomialGenerator.cpp" />
+		<Unit filename="src/qrcode/QRCode.cpp" />
+		<Unit filename="src/qrcode/QRCodeV1.cpp" />
+		<Unit filename="src/qrcode/QRCodeV10.cpp" />
+		<Unit filename="src/qrcode/QRCodeV11.cpp" />
+		<Unit filename="src/qrcode/QRCodeV12.cpp" />
+		<Unit filename="src/qrcode/QRCodeV13.cpp" />
+		<Unit filename="src/qrcode/QRCodeV14.cpp" />
+		<Unit filename="src/qrcode/QRCodeV15.cpp" />
+		<Unit filename="src/qrcode/QRCodeV16.cpp" />
+		<Unit filename="src/qrcode/QRCodeV17.cpp" />
+		<Unit filename="src/qrcode/QRCodeV18.cpp" />
+		<Unit filename="src/qrcode/QRCodeV19.cpp" />
+		<Unit filename="src/qrcode/QRCodeV2.cpp" />
+		<Unit filename="src/qrcode/QRCodeV20.cpp" />
+		<Unit filename="src/qrcode/QRCodeV21.cpp" />
+		<Unit filename="src/qrcode/QRCodeV22.cpp" />
+		<Unit filename="src/qrcode/QRCodeV23.cpp" />
+		<Unit filename="src/qrcode/QRCodeV24.cpp" />
+		<Unit filename="src/qrcode/QRCodeV25.cpp" />
+		<Unit filename="src/qrcode/QRCodeV26.cpp" />
+		<Unit filename="src/qrcode/QRCodeV27.cpp" />
+		<Unit filename="src/qrcode/QRCodeV28.cpp" />
+		<Unit filename="src/qrcode/QRCodeV29.cpp" />
+		<Unit filename="src/qrcode/QRCodeV3.cpp" />
+		<Unit filename="src/qrcode/QRCodeV30.cpp" />
+		<Unit filename="src/qrcode/QRCodeV31.cpp" />
+		<Unit filename="src/qrcode/QRCodeV32.cpp" />
+		<Unit filename="src/qrcode/QRCodeV33.cpp" />
+		<Unit filename="src/qrcode/QRCodeV34.cpp" />
+		<Unit filename="src/qrcode/QRCodeV35.cpp" />
+		<Unit filename="src/qrcode/QRCodeV36.cpp" />
+		<Unit filename="src/qrcode/QRCodeV37.cpp" />
+		<Unit filename="src/qrcode/QRCodeV38.cpp" />
+		<Unit filename="src/qrcode/QRCodeV39.cpp" />
+		<Unit filename="src/qrcode/QRCodeV4.cpp" />
+		<Unit filename="src/qrcode/QRCodeV40.cpp" />
+		<Unit filename="src/qrcode/QRCodeV5.cpp" />
+		<Unit filename="src/qrcode/QRCodeV6.cpp" />
+		<Unit filename="src/qrcode/QRCodeV7.cpp" />
+		<Unit filename="src/qrcode/QRCodeV8.cpp" />
+		<Unit filename="src/qrcode/QRCodeV9.cpp" />
+		<Unit filename="src/test/output_test.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
