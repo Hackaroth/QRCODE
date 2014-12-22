@@ -118,6 +118,18 @@ bool QRCode::CheckDataCapabilities(void)
 
 }
 //----------------------------------------------------------------
+bool QRCode::CanContainData(void)
+{
+    bool res = false;
+
+    SelectMode();
+
+    res = CheckDataCapabilities();
+
+    return res;
+}
+//----------------------------------------------------------------
+
 string QRCode::getCountIndicator(void)
 {
     int padding_size    = 0;

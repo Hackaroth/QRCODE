@@ -32,7 +32,8 @@ class QRController
         eCorrectionLevel CorrectionLevel;
         string Data;
 
-    QRCode* getQRCode(void);
+        QRCode* SelectQRCode(void);
+        QRCode* getQRCode(void);
 };
 
 #endif // QRCONTROLLER_H

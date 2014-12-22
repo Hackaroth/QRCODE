@@ -158,37 +158,33 @@ int main(int argc, char* argv[])
 
     params p;
 
-    if (argc <= 1)
+    if (argc > 1 && strcmp (argv[1],"--help") == 0)
+    {
         show_help();
+    }
     else
     {
-        if (strcmp (argv[1],"--help") == 0)
+        parse_parameters(argc, argv, p);
+
+        if (p.Verbose)
         {
-            show_help();
+            cout << "*** SETTINGS ***" << endl;
+            cout << "Ver:\t" << p.Version << endl;
+            cout << "Width:\t" << p.Width << endl;
+            cout << "Height:\t" << p.Height << endl;
+            cout << "ECL:\t" << p.ECL << endl;
+            cout << "Output:\t" << p.of << endl;
+            cout << endl;
+            cout << p.Data << endl;
         }
-        else
-        {
-            parse_parameters(argc, argv, p);
 
-            if (p.Verbose)
-            {
-                cout << "*** SETTINGS ***" << endl;
-                cout << "Ver:\t" << p.Version << endl;
-                cout << "Width:\t" << p.Width << endl;
-                cout << "Height:\t" << p.Height << endl;
-                cout << "ECL:\t" << p.ECL << endl;
-                cout << "Output:\t" << p.of << endl;
-                cout << endl;
-                cout << p.Data << endl;
-            }
+        QRController* controller = new QRController(p.Data, p.ECL, p.Width, p.Height, p.Version);
 
-            QRController* controller = new QRController(p.Data, p.ECL, p.Width, p.Height, p.Version);
+        controller->SaveToFile(p.of);
 
-            controller->SaveToFile(p.of);
-
-            delete controller;
-        }
+        delete controller;
     }
+
 
     return 0;
 }

@@ -115,7 +115,7 @@ class QRCode
         int getModules(void);
 
         bool IsVersionInfoRequired(void);
-
+        bool CanContainData(void);
         vector<Point> getAlignementPatterns(void);
         virtual ~QRCode();
 };

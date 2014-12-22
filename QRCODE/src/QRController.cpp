@@ -124,14 +124,28 @@ void QRController::SaveToFile(string file_name)
 
     try
     {
-        qr_code = getQRCode();
+        if (Version == evAuto)
+        {
+            //Data and Error Correction Level are set inside the method SelectQRCode
+            qr_code = SelectQRCode();
+        }
+        else
+        {
+            qr_code = getQRCode();
 
-        qr_code->setData(Data);
-        qr_code->setErrorCorrectionLevel(CorrectionLevel);
+            qr_code->setData(Data);
+            qr_code->setErrorCorrectionLevel(CorrectionLevel);
+        }
 
-        bmp = new QRBitmapDraw(qr_code, Width, Height);
-
-        bmp->SaveToFile(file_name);
+        if (qr_code != NULL)
+        {
+            bmp = new QRBitmapDraw(qr_code, Width, Height);
+            bmp->SaveToFile(file_name);
+        }
+        else
+        {
+            throw EQRGeneric("Invalid QR Code");
+        }
 
     }
     catch(exception &e)
@@ -139,22 +153,51 @@ void QRController::SaveToFile(string file_name)
         cout << e.what() << endl;
     }
 
-    delete bmp;
-    delete qr_code;
+    if (bmp != NULL)
+        delete bmp;
+
+    if (qr_code != NULL)
+        delete qr_code;
 
 }
 //-------------------------------------------------------------------
+QRCode* QRController::SelectQRCode(void)
+{
+    QRCode* res = NULL;
 
+    for (int version = evVersion1; version <= evVersion40; version++)
+    {
+        Version = version;
+        res     = getQRCode();
+
+        if (res != NULL)
+        {
+            res->setData(Data);
+            res->setErrorCorrectionLevel(CorrectionLevel);
+
+            if (res->CanContainData())
+            {
+                break;
+            }
+            else
+            {
+                delete res;
+                res = NULL;
+            }
+        }
+
+    }
+
+    return res;
+}
+
+//-------------------------------------------------------------------
 QRCode* QRController::getQRCode(void)
 {
     QRCode* res = NULL;
 
     switch (Version)
     {
-        case evAuto:
-            throw EQRGeneric("Auto version selection not implemented yet");
-            break;
-
         case evVersion1:
             res = new QRCodeV1();
             break;
